@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("pictures/food.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.H1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: 35px;
+    color: rgb(255, 123, 0);
+}
+
+
+.glassy-container {
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding-left: 50px;
+    margin: 20px;
+    text-align: center;
+    max-width: 800px ;
+    
+}
+
+
+.container-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+   
+}
+
+
+.text-container {
+  
+    padding: 20px;
+    color: white;
+    margin-top: 400px;
+    margin-right: 300px;
+    margin-left: 300px;
+    background-color: rgb(201, 150, 55);
+    border-radius: 10px;
+    text-align: center;
+    
+
+}
+.main{
+    font-size: 50px;
+
+}
+
+.title {
+    font-size: 28px;
+    margin: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.pictures {
+    border-radius: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(17, 1, 1, 0.384);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: orange;
+    color:white;
+}
+
+
+.title {
+    font-size: 28px;
+    margin: 15px;
+    color:black;
+    font-weight: bold;
+    
+}
+
+
+.pictures {
+    border-radius: 15px;
+}
+
